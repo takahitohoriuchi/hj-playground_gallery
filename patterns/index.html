@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>備え付け補助線パタン / Preset Auxiliary Line Patterns</title>
+
+  <!-- 👇 ファイル名は style.css（styles.css ではない） -->
+  <link rel="stylesheet" href="../style.css" />
+
+  <!-- Masonry & imagesLoaded（ウォーターフォール用） -->
+  <script defer src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+  <script defer src="../script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>
+  備え付け補助線パタン <span class="en">/ Preset Auxiliary Line Patterns</span>
+</h1>
+
+
+    <!-- 🌗 表示形式トグル -->
+    <div class="view-toggle" role="group" aria-label="View mode">
+      <button id="btn-uniform" class="active" type="button">格子</button>
+      <button id="btn-waterfall" type="button">ウォーターフォール</button>
+    </div>
+
+    <p class="tagline">サムネをクリックすると動画再生ページにとべます</p>
+  </header>
+
+  <main>
+    <div id="gallery" class="grid mode-uniform">
+      <!-- JS が <figure> を追加 -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 Takahito Horiuchi</small>
+  </footer>
+</body>
+</html>

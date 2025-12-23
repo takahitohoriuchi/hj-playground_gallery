@@ -1,0 +1,109 @@
+:root{
+  --gap: 12px;
+  --thumb-w: 220px;    /* 格子モードのカード幅（ここを変えると列数が変わる） */
+  --radius: 0px;
+
+  --bg:#0b0c10; --card:#15171c; --ink:#e9eef2; --muted:#9aa3ad;
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; background:var(--bg); color:var(--ink);
+  font-family:ui-sans-serif,system-ui,Helvetica,Arial,"Hiragino Sans","Yu Gothic",sans-serif; }
+
+.site-header, .site-footer{ max-width:1200px; margin:18px auto; padding:0 16px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.site-header h1{ margin:.2em 0; font-size:clamp(22px,4vw,32px); }
+/* ===== Header Title (H1) ===== */
+.site-header h1 {
+  margin: 0 0 10px;
+  font-size: clamp(20px, 2.2vw, 34px); /* でか過ぎ防止＆レスポンシブ */
+  line-height: 1.15;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* タイトルの英語部分（" / " 区切り）を少し控えめに */
+.site-header h1 .en {
+  display: inline-block;
+  margin-left: 0.35em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* 余裕があれば、ヘッダー全体も少し締める */
+.site-header {
+  padding: 22px 18px 14px;
+}
+
+.tagline{ margin:0; color:var(--muted); flex:1 0 100%; }
+
+.view-toggle{ display:flex; gap:6px; margin-left:auto; }
+.view-toggle button{
+  background:#242730; color:#cfd6dd; border:1px solid #323744;
+  padding:8px 10px; border-radius:999px; cursor:pointer; font-size:13px;
+}
+.view-toggle button.active{ background:#3a4050; color:#fff; border-color:#4b5162; }
+
+main{ max-width:1200px; margin:0 auto; padding:8px 16px 40px; }
+
+/* ===== 共通：カード ===== */
+.grid figure{
+  margin:0 0 var(--gap);
+  background:var(--card);
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:0 4px 16px rgba(0,0,0,.25);
+}
+.grid video, .grid img{ display:block; width:100%; height:auto; background:#000; }
+figcaption{
+  padding:8px 10px; font-size:12px; color:var(--muted);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+#gallery figure figcaption {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+/* ===== モード1：格子（縦横そろえる・現状の見た目） ===== */
+.grid.mode-uniform{
+  display:flex; flex-wrap:wrap; gap:var(--gap); justify-content:center;
+}
+.grid.mode-uniform figure{
+  width:var(--thumb-w);
+}
+.grid.mode-uniform .thumb{
+  position:relative; width:100%; aspect-ratio:16/9; overflow:hidden;
+}
+.grid.mode-uniform .thumb > video,
+.grid.mode-uniform .thumb > img{
+  position:absolute; inset:0; width:100%; height:100%; object-fit:cover;  /* トリミングで均一 */
+}
+
+/* ===== モード2：ウォーターフォール（元比率のまま15%縮小） ===== */
+/* Masonryが position:absolute で配置するので、親は relative */
+.grid.mode-waterfall{ position:relative; }
+
+/* Masonryに並べさせるカード。幅は JS が 15%計算で inline-style で与える */
+.grid.mode-waterfall figure{
+  position:absolute;   /* Masonryが top/left を設定 */
+}
+
+/* ウォーターフォールでは等倍比率で縮小表示（object-fit:contain） */
+.grid.mode-waterfall .thumb{ width:100%; }
+.grid.mode-waterfall .thumb > video,
+.grid.mode-waterfall .thumb > img{
+  width:100%; height:auto; object-fit:contain;
+}
+
+
+
+/* レスポンシブ微調整（格子モードのカード幅を縮小） */
+@media (max-width:1000px){ :root{ --thumb-w: 200px; } }
+@media (max-width:820px){  :root{ --thumb-w: 170px; } }
+@media (max-width:640px){  :root{ --thumb-w: 140px; } }
+@media (max-width:480px){  :root{ --thumb-w: 100%; } }
