@@ -4,7 +4,7 @@ set -euo pipefail
 FILE="${1:-}"
 
 if [[ -z "$FILE" ]]; then
-  echo "Usage: ./compress_one.sh ./b/triplejump1.mp4"
+  echo "Usage: ./compress_one.sh ./movies/demo.mp4"
   exit 1
 fi
 
