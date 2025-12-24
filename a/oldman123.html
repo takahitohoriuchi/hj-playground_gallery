@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>oldman1,2,3</title>
-		<style>
-			html,
-			body {
-				margin: 0;
-				padding: 0;
-				background-color: black;
-				overflow: hidden;
-			}
-			video {
-				width: 100vw;
-				height: 100vh;
-				object-fit: cover;
-			}			
-		</style>
-	</head>
-	<body>		
-		<video autoplay loop muted playsinline>
-			<source src="./oldman1.mp4" type="video/mp4" />
-			Your browser does not support the video tag.
-		</video>
-        <video autoplay loop muted playsinline>
-			<source src="./oldman2.mp4" type="video/mp4" />
-			Your browser does not support the video tag.
-		</video>
-        <video autoplay loop muted playsinline>
-			<source src="./oldman3.mp4" type="video/mp4" />
-			Your browser does not support the video tag.
-		</video>
-	</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oldman1,2,3</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        background: #000;
+      }
 
-<script defer src="../script.js"></script>
+      /* 3段に分割して、必ず1画面に収める */
+      .stack {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .cell {
+        flex: 1 1 0;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* 各セルにフィット（縦横比は保つ） */
+      .cell video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* 全体を見せる。切り取りたいなら cover */
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="stack">
+      <div class="cell">
+        <video autoplay loop muted playsinline>
+          <source src="./oldman1.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="cell">
+        <video autoplay loop muted playsinline>
+          <source src="./oldman2.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="cell">
+        <video autoplay loop muted playsinline>
+          <source src="./oldman3.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </body>
+</html>
