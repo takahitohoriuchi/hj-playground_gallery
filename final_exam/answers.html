@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>堀内最終審査資料🎁🎄</title>
+    <!-- <link rel="stylesheet" href="../style.css" /> -->
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+      blockquote {
+        background: #dddddd;
+      }
+
+			body {
+				margin: 0;
+				height: 100vh;
+				width: 100vw;
+				font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+				overflow: hidden;
+			}
+
+			/* 全体レイアウト：左右分割 */
+			#container {
+				display: flex;
+				height: 100%;
+				width: 100%;
+			}
+
+			/* 左側（回答＋スライド） */
+			#left-pane {
+				flex: 0 0 35%; /* 初期幅：35%（適宜変えてOK） */
+				min-width: 200px;
+				max-width: 80vw;
+				display: flex;
+				flex-direction: column;
+				border-right: 1px solid #ddd;
+				background: #fafafa;
+			}
+
+			/* 左上：回答書 */
+			#answers {
+				flex: 1; /* 回答書：少し大きめ */
+				overflow-y: auto;
+				padding: 12px;
+				border-bottom: 1px solid #ddd;
+			}
+
+			/* 左下：スライドPDF */
+			#slides-wrapper {
+				flex: 1.2;
+				min-height: 0;
+			}
+
+			/* 右側：博論PDF全面 */
+			#right-pane {
+				flex: 1;
+				padding: 4px;
+			}
+
+			#thesis-wrapper {
+				height: 100%;
+			}
+
+			/* 共通PDFビュー領域 */
+			iframe {
+				width: 100%;
+				height: 100%;
+				border: 1px solid #ccc;
+				background: #f5f5f5;
+			}
+
+			/* 仕切りバー（左右幅調整） */
+			#divider {
+				width: 4px;
+				cursor: col-resize;
+				background: #ddd;
+				flex-shrink: 0;
+			}
+
+			/* ジャンプリンク */
+			.jump {
+				cursor: pointer;
+				color: #0066cc;
+				text-decoration: underline;
+			}
+			.jump:hover {
+				color: #003f7d;
+			}
+
+      .highlight-red{
+        background: none
+      }
+      .highlight-brown{
+        background: none
+      }
+      .highlight-purple{
+        background: none
+      }
+
+		</style>
+	</head>
+
+	<body>
+		<div id="container">
+			<!-- 左側：回答 + スライド -->
+			<div id="left-pane">
+				<div id="answers">
+					<h1>最終審査資料</h1>					
+					<article id="2d15da63-bd19-80c6-8509-f2e6f5d8da30" class="page sans">
+						<header>
+							<h1 class="page-title" dir="auto">最終審査資料</h1>
+							<p class="page-description" dir="auto"></p>
+						</header>
+						<div class="page-body">
+							<div style="display: contents" dir="ltr">
+								<nav id="2d15da63-bd19-80da-991b-e04a8affa1e1" class="block-color-gray table_of_contents">
+									<div class="table_of_contents-item table_of_contents-indent-0">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-80f6-9fe3-c439ad2f28d3">はじめに</a>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-0">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-80e7-bc4e-e7086d74d3b7">修正点</a>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-1">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-8055-8537-f24e52b246a5">全員に共通する修正</a>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-1">
+                    
+										<a class="table_of_contents-link" href="#2d15da63-bd19-8084-9d93-dfa5370e2758"
+											>
+                      <font color="#ff9999">
+                      諏訪<mark class="highlight-red">先</mark>生</a
+										>
+                    </font>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-1">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-806e-ad0e-cc1851e740b8">石川先生</a>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-1">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-80d8-b3ad-c38c27dad667">中西先生</a>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-1">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-80fd-9163-c7a25e2f08bb">西村先生</a>
+									</div>
+									<div class="table_of_contents-item table_of_contents-indent-1">
+										<a class="table_of_contents-link" href="#2d15da63-bd19-8004-b54c-fe4c8f3d21dc">その他の主な修正</a>
+									</div>
+								</nav>
+							</div>
+							<div style="display: contents" dir="auto"><p id="2d15da63-bd19-803d-99ec-cbd7d7ca09b2" class="">最終更新：12/25(木) 0:45</p></div>
+							<div style="display: contents" dir="auto">
+								<p id="2d15da63-bd19-8052-b5d3-c904564e9afb" class="">
+									<a href="https://www.notion.so/2d15da63bd1980c68509f2e6f5d8da30?pvs=21">本ページのリンク</a>
+								</p>
+							</div>
+							<div style="display: contents" dir="auto"><h1 id="2d15da63-bd19-80f6-9fe3-c439ad2f28d3" class="">はじめに</h1></div>
+							<div style="display: contents" dir="auto">
+								<p id="2d15da63-bd19-8069-a66a-f3b518cc0453" class="">この度はありがとうございます。</p>
+							</div>
+							<div style="display: contents" dir="auto">
+								<p id="2d15da63-bd19-80f8-b138-ffe2df141957" class="">
+									論文は、以下のような形で、先生ごと色を割り当て、修正ポイントにIDラベルを振ってあります
+								</p>
+							</div>
+							<div style="display: contents" dir="ltr">
+								<figure id="2d15da63-bd19-8002-984e-ccf7d87ebf72" class="image">
+									<a
+										href="%E6%9C%80%E7%B5%82%E5%AF%A9%E6%9F%BB%E8%B3%87%E6%96%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-12-23_6.33.42.png"
+										><img
+											style="width: 480px"
+											src="%E6%9C%80%E7%B5%82%E5%AF%A9%E6%9F%BB%E8%B3%87%E6%96%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-12-23_6.33.42.png"
+									/></a>
+								</figure>
+							</div>
+							<div style="display: contents" dir="auto"><p id="2d15da63-bd19-807f-b5b7-d48b95f5d065" class=""></p></div>
+							<div style="display: contents" dir="auto">
+								<p id="2d15da63-bd19-8023-90e9-d2c6a38137c3" class="">
+									※最終審査までに、スライドとPDFとを連携させた発表資料（webページ）も作る予定です（その土台は作ってあるので）。
+								</p>
+							</div>
+							<div style="display: contents" dir="auto"><h1 id="2d15da63-bd19-80e7-bc4e-e7086d74d3b7" class="">修正点</h1></div>
+							<div style="display: contents" dir="auto">
+								<p id="2d15da63-bd19-80f1-860c-e914946922a3" class="">
+									以下に、主な修正点を示します。それぞれの「先生のお名前+番号」が修正点ラベルです。
+								</p>
+							</div>
+							<div style="display: contents" dir="auto"><hr id="2d15da63-bd19-806b-be47-dd47b0af87c7" /></div>
+							<div style="display: contents" dir="auto">
+								<h2 id="2d15da63-bd19-8055-8537-f24e52b246a5" class="block-color-brown">全員に共通する修正</h2>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8030-b365-e9512921f5e4" class="block-color-brown bulleted-list">
+									<li style="list-style-type: disc">
+										[共通1]：[共通2]の目的文言変更にともない、第1章全体を変え、本研究の新規性がわかりやすいような構成に変えました
+                    <span class="jump" data-thesis-page="19" data-slides-page="3"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8068-89c6-da09f16479fe" class="block-color-brown bulleted-list">
+									<li style="list-style-type: disc">
+										[共通2]：（p.25）4.1節で本研究の目的の文言を変更しました
+                    <span class="jump" data-thesis-page="44" data-slides-page="9"> → 該当箇所へジャンプ </span>
+										<div style="display: contents" dir="auto">
+											<ul id="2d15da63-bd19-80ed-a5f1-cae2dc868e7e" class="bulleted-list">
+												<li style="list-style-type: circle">
+													「身体をデザインする」すなわち「運動学習を身体知の学びとしてとらえ、みずからの身体でみずからの身体のありかたを問い、みずからの身体の新しいありかたを創りだす」姿を描き出すことだという文言に変えました。
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8064-b41b-c3f9cabf7bde" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-brown">
+                    [共通3]：（p.163）16章の結論部分を変えました。</mark>
+                    <span class="jump" data-thesis-page="182" data-slides-page="93"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-801b-97da-ef96fa89f0d9" class="block-color-brown bulleted-list">
+									<li style="list-style-type: disc">
+										[共通4]: （p.30, p.66）4.3.2項や10.1.3項で、からだメタ認知や「ことば」について、補強しました
+                    <span class="jump" data-thesis-page="49" data-slides-page="16"> → 該当箇所へジャンプ </span>
+                    <span class="jump" data-thesis-page="85" data-slides-page="45"> → 該当箇所へジャンプ </span>
+										<div style="display: contents" dir="auto">
+											<ul id="2d35da63-bd19-80e4-8e87-efb7cecbd1e6" class="bulleted-list">
+												<li style="list-style-type: circle">
+													ことばは諸刃の剣である」こと、からだメタ認知そのものにもトレーニングがいることなど。
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto"><hr id="2d15da63-bd19-803d-84e0-ec473ddc0fa4" /></div>
+							<div style="display: contents" dir="auto">
+							<h2 id="2d15da63-bd19-8084-9d93-dfa5370e2758" class="block-color-red">諏訪<mark class="highlight-red">先</mark>生</h2>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-809d-a7f4-fa7cc25471ea" class="block-color-gray_background">
+									<em
+										>私にとって輻湊性の考え方は、運動名とその意味という対応関係の構図でとらえるときに、その構図の内側から構図そのものを超克しうるような概念装置となった。見てわかるとおり、輻湊性は現象学の考え方と類似している。現象学をよく知らなかった当時の私は、自らの運動学習の実践からなかば自力で現象学の基本的な考え方を醸成したのである。トイによって身体を触発しようとしていた（1.1.1
+										項）のも、方向性としては、こういう現象学的なありかたを欲していたのだと、私は61確信している。<br /><br />👉</em
+									>現象学と輻輳性の話がどうつながるのかがこの後回収されていない。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8022-bbd8-d0c648c621e0" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-red">
+                    [諏訪1] （p.64）10.1.2項にて、修正しました。</mark>
+                    <span class="jump" data-thesis-page="84" data-slides-page="45"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8010-aea2-c81c0d91dd86" class="block-color-gray_background">
+									創作オノマトペのことを論じるときは、参考文献番号だけではなく、諏訪がそれを開発したということを文章で表すのがよい。それに、ぬぴゃひ〜って僕の本のなかで出てくるものじゃない？　やはりこういうのは地の文ではなく、引用として僕の文章を抜き出し、それを隆仁が説明すべき。ただ参考文献だけ引用すればよいわけではない。既存研究へのrespectの示し方をもっと精密に！
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8001-a219-e110494e9762" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-red">
+                    [諏訪2] （p.76）11.1.1項にて修正しました。</mark>
+                    <span class="jump" data-thesis-page="95" data-slides-page="46"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-802e-86ec-d4efefbc0e83" class="block-color-gray_background">
+									2章の2.1には、諏訪がかつてつくったシステムも引用して論じてほしい。筧さんとの論文にあるはず。metacog.jpにも載ってる以下。諏訪正樹，筧康明，矢島佳澄，仰木裕嗣．(2012).ライフスキルの学習支援ツールの開発　ー身体と意識の共創様態の探究方法論ー，電子情報通信学会特集号「人間を理解するためのICT技術　―人間を対象としたセンシング・情報処理からその応用まで―
+									」,Vol.24, No.5, pp.377-384．
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8097-9918-ff0ee242f4c4" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-red">
+                    [諏訪3] （p.77）11.1.2項にて加えました。</mark>
+                    <span class="jump" data-thesis-page="96" data-slides-page="48"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-804d-a9b5-cf008b0f3c8d" class="block-color-gray_background">
+									<em>「私は、動いている身体の「表情」の感得をうながすツールを制作した。68」</em
+									>の箇所。この節には、やはり動画へのリンクをつけて、それに対して隆仁はどんな表情を感じるのか（創作オノマトペと、それを説明する文章）を書くべきだと思う。哲学的に表情を論じたところで、読者には伝わらないことのほうが多い。僕なら競馬のパドック映像へのリンクを貼って、この馬にはこれこれこういう表情を感じると説明するが、たかひとは隆仁なりの動画でよいと思う。<em>「ことば」だけを媒体にするよりも、なかなか痒いところに手が届かないかもしれない。もっと豊かにしたい。」</em>という一節をその後に読むとなおさら上の思いがより強くなる。「より痒いところに・・」というならば、動画を見せてなかなか、創作オノマトペとその説明文だけでは伝わらない「痒いところ」が何かを読者に感じさせることが必要。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80fe-813e-e3e5d9a81642" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red">
+                      [諏訪4] （p.74）10.3節にて日本舞踊と砲丸投の事例で語りました</mark>
+                      <span class="jump" data-thesis-page="93" data-slides-page=""> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-80da-892d-d40386613c09" class="block-color-gray_background">
+									2.2の他者のアプローチ（labanなど）も、文字だけでは読者には何もわからない。せめて、他者たちがどういうvisualを提示しているのかを引用して掲載し、それによって、何をユーザーに促そうとしたのかを隆仁が論じるべき。<br />それがあって初めて、
+									<div style="display: contents" dir="auto">
+										<ul id="2d35da63-bd19-80f3-8f04-fc367baa6e3f" class="bulleted-list">
+											<li style="list-style-type: disc"><em>実際の動きをもとにした「かたち」を描くこと</em></li>
+										</ul>
+									</div>
+									<div style="display: contents" dir="auto">
+										<ul id="2d35da63-bd19-80d8-ab69-cfe37bf00faa" class="bulleted-list">
+											<li style="list-style-type: disc">
+												<em>かたちは、抽象的で、素朴で、動きがむきだしになったような見た目であること。</em>
+											</li>
+										</ul>
+									</div>
+									<div style="display: contents" dir="auto">
+										<ul id="2d35da63-bd19-8042-866f-ef7a15552964" class="bulleted-list">
+											<li style="list-style-type: disc">
+												<em>「人に似て非なる形」や「人ならざる形」のような、人体形をあえて保留した形であること</em>
+											</li>
+										</ul>
+									</div>
+									<div style="display: contents" dir="auto">
+										<ul id="2d35da63-bd19-80b9-81d3-c34dc07bddcf" class="bulleted-list">
+											<li style="list-style-type: disc">
+												<em>からだメタ認知（ことば）を促し、かつ、長期的な学習を支援できるようになっていること</em>
+											</li>
+										</ul>
+									</div>
+									<div style="display: contents" dir="auto">
+										<ul id="2d35da63-bd19-80dd-8d0c-fc602442b4cb" class="bulleted-list">
+											<li style="list-style-type: disc">
+												<em>身体知の学びの主体性をうながすこと<br /></em>
+											</li>
+										</ul>
+									</div>
+									<div style="display: contents" dir="auto">
+										<p id="2d35da63-bd19-80b6-a70e-fb32c0560490" class="">
+											という問題意識が意味をもつ。つまり、他者のアプローチでは、これらの条件はあまり満たさないと隆仁が感じているということよね？　これ論文の肝だと思うよ。先行研究への批判をもとに自身のツール開発が成立しているのだから。 
+										</p>
+									</div>
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-804f-b7a0-f37273c7ed11" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red"
+											>[諏訪5]
+											（p.78）11.2節で、それぞれの画像を掲載しながら、各プロジェクトのポイントを論じてまとめ、HJPのコンセプトにつなげました。</mark
+										>
+                    <span class="jump" data-thesis-page="97" data-slides-page="50"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8038-a398-f588b7ef6047" class="block-color-gray_background">
+									<em>「図3.9: 補助線を引く様子」</em
+									>付近：こうやって補助線を引く前と後のHJ-Playground（以下HJPと略す）の動画がどう違って見えるのか、その差異を見たい。つまり、前と後の動画をそれぞれ用意して、リンクを貼り、隆仁が創作オノマトペとそれを説明する文章を付記する。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8027-a3fc-e627dd93de5b" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red">
+                      [諏訪6] （p.96）12.3.5項に、創作オノマトペとメタ認知を加えました。</mark>
+                      <span class="jump" data-thesis-page="115" data-slides-page="54"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8055-9111-fa3d71f650a7" class="block-color-gray_background">
+									補助線を引く以外に、HJPでユーザーがやることが可能な機能のすべてについて、同じように、その機能を使ったからこそ、afterに醸し出された表情がどんなものなのかを説明してほしい。これ研究の一番の肝ですよ。そこの説得力があれば、それだけでもうこの研究の価値が認められます。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80a5-85b1-c5ad2178e684" class="block-color-red bulleted-list">
+									<li style="list-style-type: disc">
+										12.3節のHJPの使用法説明をより一本線のストーリーにし、[諏訪6]の12.3.5項のものにくわえて、
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80e7-ae6d-e008a73e27f7" class="block-color-red bulleted-list">
+									<li style="list-style-type: disc">
+										[諏訪7]（p.102）12.3.7（補助線スタイル）、（p.105）12.3.8（軌跡をつける）でも、同じ事例をもとに、創作オノマトペとメタ認知を加えました。
+                    <span class="jump" data-thesis-page="121" data-slides-page="54"> → 該当箇所へジャンプ </span>
+                    <span class="jump" data-thesis-page="124" data-slides-page="54"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8073-9d55-f50f788963c1" class="block-color-gray_background">
+									<em>図3.10: 備え付け補助線パタン一覧（その1）の図：</em
+									>これのそれぞれについて動画へのリンクを貼りましょう。簡単にできそうだから修正Aにしたけど、優先度は高くはないです。その他の書類をまずは優先してください。図3-11も。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80e0-8705-c134b940cedd" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red"
+											>[諏訪8] （p.97, p98）図12.11・12.12と、(p.100)表12.3に貼りました（公聴会時点で修正済）</mark
+										>
+                    <span class="jump" data-thesis-page="116" data-slides-page="54"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8004-8754-c24873ff917d" class="block-color-gray_background">
+									補助線パタン（うずまきなど）がなぜそういう名称になっているかは説明すべきではないか？ちなみに「うずまき」や「きざみのり」はなんで？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80d1-8f14-dc4574ee99b2" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-red">
+                    [諏訪9] （p.100）表12.3に説明を加えました。</mark>
+                    <span class="jump" data-thesis-page="119" data-slides-page="54"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-802e-886a-cb363efc2e74" class="block-color-gray_background">
+									<em
+										>「一般に、ひとつの身体運動データに対して、複数のユーザがそれぞれ複数の表情エントリを作成できる。このようにして、ひとつの身体運動に多彩な表情を感得し、採集することを促す」</em
+									>とあるけれど、これって、自身の動きではなく、他者の動きをみて、それにユーザーそれぞれが創作オノマトペ、補助線パタン、内省記述をするデータを貼り付けられるということよね？　どういう使い方をするかについて、これよりも前に書いておく必要あり。他者の動きをみて表情を読み取り、自身の身体運動へのヒントを得るとか、自身の動きをみて表情のあるなしで何か問題意識を醸成するとか・・
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-808c-adb5-ead5ce9b54a7" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red">
+                      [諏訪10] （p.117）表12.6にその学び方パタンを整理しました。</mark>
+                      <span class="jump" data-thesis-page="136" data-slides-page=""> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8042-bf05-e3c33aa2de83" class="block-color-gray_background">
+									からだメタ認知という文言と内省記述という文言の違いは何？　ツールでは「内省記述」となっている点が気になる。さんざん「からだメタ認知」を促すことが重要と書いてきたのに・・・それで統一できないの？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-804e-b08a-ebdc661a1dfe" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-red">「からだメタ認知」に統一しました。</mark></li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8099-a517-c2ed7d168d35" class="block-color-gray_background">
+									対象者Aと対象者Bのデータに関しても、HJPの動きや、彼ら自身の映像（ダンスや三段跳び）の映像も動画リンクが欲しい。もちろん、特に実映像は彼らの了承がいるけれど。[
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8088-b6c5-d9d61fd63365" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red"
+											>[諏訪12] （p.122など）動画リンク貼りました。顔にはモザイク。（実験同意書のさいに了承取得済）</mark
+										>
+                    <span class="jump" data-thesis-page="141" data-slides-page=""> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-802c-a173-e1fdb2382f8d" class="block-color-gray_background bulleted-list">
+									<li style="list-style-type: disc">
+										表6.5と6.6の関係がわからない。たとえば、表6.5でAはエントリーが19なのに、なぜ表6.6では、oldman1,2,3の合計エントリーが28なの？　対象者A以外の人もoldman1、2、3は見ているのか？
+										<div style="display: contents" dir="auto">
+											<ul id="2d35da63-bd19-8067-91a3-cbda216cc855" class="bulleted-list">
+												<li style="list-style-type: circle">
+													そうだとしたらなぜそういう実験をやったのか？　たとえば対象者Bがoldmanをみたことで、対象者Bにとって何か学ぶべきことはあったのか？
+												</li>
+											</ul>
+										</div>
+										<div style="display: contents" dir="auto">
+											<ul id="2d35da63-bd19-807e-bbfc-d59677ab3b2f" class="bulleted-list">
+												<li style="list-style-type: circle">
+													それは、なんども言及しているHJPの使い方に大いに関係あり。どういう使い方をA~Dにさせたのか？その意図は何か？　そしてその効果は何か？　そういうことを書いていないのではない？
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8078-bcbb-c0e9a1909f97" class="block-color-red bulleted-list">
+									<li style="list-style-type: disc">[諏訪10]の指摘への対処にくわえ、</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-809f-83cf-c72543c48b22" class="block-color-red bulleted-list">
+									<li style="list-style-type: disc">
+                    [諏訪13]（p.122）13.1節にCとDの実験参加意義を書きました
+                    <span class="jump" data-thesis-page="141" data-slides-page="58"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-80ec-b0e7-fc1aa23c455e" class="block-color-gray_background">
+									図6.1：文章では「モチーフあり・なし」と言ってるが、図では「メタファありなし」になってる。そろえよ。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80ee-8af3-dec074985f1d" class="bulleted-list">
+									<li style="list-style-type: disc">そろえました。</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8008-a22b-e768b77745de" class="block-color-gray_background">
+									意図としては4章に書いた通り、でもAもBも他者のエントリーから参考にはしなかったと（残念ながら）書くべきでしょう。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8073-8af7-c1d22f1383b4" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red">
+                      [諏訪15]（p.153）15.2節に、他者からの参考についての顕著な事例にも触れました。</mark>
+                      <span class="jump" data-thesis-page="172" data-slides-page="89"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-804d-8db1-cf24e5036c53" class="block-color-gray_background">
+									モチーフ語の分析の「オチ」はなに？　so
+									what感が満載。そういう分野のメタファをもって身体運動を見つめたことが、たとえば、A,Bに何をもたらしたのか？　それについては、対象者Bにインタビューが必要なのではないか？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80cc-8e7a-eb3e33da4d31" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-red">
+                      [諏訪16]: （p.154）15.3節のはじめと15.4節に書きました。</mark>
+                      <span class="jump" data-thesis-page="173" data-slides-page="90"> → 該当箇所へジャンプ </span>
+										<div style="display: contents" dir="auto">
+											<ul id="2d35da63-bd19-8051-ba0f-c17191a5866d" class="bulleted-list">
+												<li style="list-style-type: circle">
+													…研究１の「生きる」と、研究２の「表情」をつなげるためです。表情は、競技実践ドメインに閉じずに、そのひとが生きてきた経験に根ざしている。抽象図形を元の競技的運動としてとらえるだけでなく、日常生活の多岐にわたるドメインから見立てを動員して運動の表情を感得する、という発想につなげるためです。
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-809b-9dad-c966641968fd" class="block-color-gray_background">
+									oldman1は他者の映像ですか？　自分の映像ですか？　まずこれに答えてください。それによって読み方が変わります。こういうことは文中に記載すべきです。そもそもHJPをどういう使い方をするのかに何種類くらいあるのかをどこかでばんと掲げ、各表ではそのどの使い方なのかを明記する必要を感じます。
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-80cf-8aee-f01996038c19" class="bulleted-list">
+									<li style="list-style-type: disc"><mark class="highlight-red">[諏訪10]で対処</mark></li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto"><p id="2d35da63-bd19-805b-982c-d76425d21524" class=""></p></div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-800c-94cb-d37de72c137b" class="block-color-gray_background">
+									身体の関節は骨の出っぱりにマーカーを貼って、それを簡易モーションキャプチャーで計測し、関節・骨の位置を点群としてデータ化するということであってるよね？ああ、実験参加者の箇所にあるね。だけど、本来はHJPの説明の箇所に書くべきよ。HJPへの入力データをどう取るかってのはひとつの重要項目だから。修正Aではないけれど、今後の審査に向けては修正してください
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8022-82bf-f9e16f2ac3bd" class="block-color-red bulleted-list">
+									<li style="list-style-type: disc">
+                    [諏訪18]（p.86）12.2節に明記しました。</li>
+                    <span class="jump" data-thesis-page="105" data-slides-page="64"> → 該当箇所へジャンプ </span>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8028-a972-f56dde3d9c91" class="block-color-red bulleted-list">
+									<li style="list-style-type: disc">
+                    [諏訪18]（p.124）13.4節に対象者のマーカ一覧を示しました。</li>
+                    <span class="jump" data-thesis-page="143" data-slides-page="64"> → 該当箇所へジャンプ </span>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto"><hr id="2d15da63-bd19-8013-98fe-cbfa5ddb45bf" /></div>
+							<div style="display: contents" dir="auto"><h2 id="2d15da63-bd19-806e-ad0e-cc1851e740b8" class="block-color-teal">石川先生</h2></div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d15da63-bd19-809c-9488-fed3650d9856" class="block-color-gray_background">
+									「輪郭」を描かないのはなぜ？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-805a-92b4-c5eba1c2cc8f" class="block-color-teal bulleted-list">
+									<li style="list-style-type: disc">
+										「輪郭」とは、部位と部位のつながりに関する一般的知識・解剖学的身体（肩から腕が生えて・・・みたいな）のことだと理解しました。
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-807a-92d3-daac0f126f35" class="block-color-teal bulleted-list">
+									<li style="list-style-type: disc">
+										[石川1]：（p.78）11.2.1項のバイオロジカルモーションのところで、そのうえでHJPでは「棒人間ですら」固定観念になってしまうから、それを乗り超えるねらいがあることを論じました
+                    <span class="jump" data-thesis-page="97" data-slides-page="49"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80ff-9806-ecb9b238f46d" class="block-color-teal bulleted-list">
+									<li style="list-style-type: disc">
+										[石川2]：（p.86）12.2節（HJPの説明章）にHJPの点とマーカの関係を示し、13.4節（p.126,
+										p.128）で、対象者AとBのマーカ一覧を表にして載せました。
+                    <span class="jump" data-thesis-page="105" data-slides-page="64"> → 該当箇所へジャンプ </span>
+                    <span class="jump" data-thesis-page="147" data-slides-page="77"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto"><hr id="2d15da63-bd19-804a-9803-dd8bf178c20d" /></div>
+							<div style="display: contents" dir="auto">
+								<h2 id="2d15da63-bd19-80d8-b3ad-c38c27dad667" class="block-color-purple">中西先生</h2>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d15da63-bd19-8057-bb02-cd6ee1b72a79" class="block-color-gray_background">
+									運動学習に「正解」があるという表現はよくないのではないか？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80d9-a0b4-f670919941f9" class="bulleted-list">
+									<li style="list-style-type: disc">はい、おっしゃるとおりよろしくないです。</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80b5-a5e2-ff62927c237a" class="block-color-brown bulleted-list">
+									<li style="list-style-type: disc">[共通2]：「身体をデザインする」ということを導入したうえで、</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8055-aa6f-d565e6cd3694" class="block-color-brown bulleted-list">
+									<li style="list-style-type: disc">
+										[共通1]：（p.4）1.2.2項で、仮に陸上競技であっても個人固有性は2種類あって、正解は情報として示されるものでもないことを論じました。
+                    <span class="jump" data-thesis-page="23" data-slides-page="5"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d15da63-bd19-804d-bf20-f348e5c9f004" class="block-color-gray_background">
+									B.ムナーリのファンタジアの思想との関連
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8030-a96b-ca9630f2a798" class="block-color-purple bulleted-list">
+									<li style="list-style-type: disc">
+                    [中西1]: （p.82）11.2.2項「B.ムナーリの思想」という項を追加しました。
+                    <span class="jump" data-thesis-page="101" data-slides-page="51"> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80ad-b529-f869e410feb9" class="block-color-purple bulleted-list">
+									<li style="list-style-type: disc">
+                    [中西2]: （p.154）15.3節でもムナーリを引用しました。
+                    <span class="jump" data-thesis-page="173" data-slides-page=""> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d35da63-bd19-8074-a159-c82ab3ba0939" class="block-color-gray_background">
+									仏教思想（無分別知）との関連
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d35da63-bd19-8001-a1d7-fb0de72135a3" class="bulleted-list">
+									<li style="list-style-type: disc">
+										<mark class="highlight-purple"
+											>[中西3]:
+											（p.65）10.1.2項で、研究１を終えて「表情」に辿り着きそうな私の思考が無分別知的になったことを述べました。</mark
+										>
+                    <span class="jump" data-thesis-page="84" data-slides-page="45"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto"><hr id="2d15da63-bd19-80b3-befb-c40578db3a43" /></div>
+							<div style="display: contents" dir="auto"><h2 id="2d15da63-bd19-80fd-9163-c7a25e2f08bb" class="block-color-gray">西村先生</h2></div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d15da63-bd19-80b3-b428-f18c9005e0af" class="block-color-gray_background">
+									研究が「アスリート実践」と「暗黙的なものの言語化」の二本線が走っているようにみえるけど、目的はどっち？両方？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8048-8954-f56a691f2276" class="block-color-gray bulleted-list">
+									<li style="list-style-type: disc">
+										[西村1]:
+										（p.25）4.1節（目的の節）で、「実践」という語彙の解説をしました（タイトルにも含まれる文言だからこそ、たしかに実践という語彙の解説は重要だと考えます）。
+                    <span class="jump" data-thesis-page="44" data-slides-page="9"> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<blockquote id="2d15da63-bd19-80b9-bb85-dfd459d2425a" class="block-color-gray_background">
+									からだメタ認知とジェンドリンのfocusingはどう違う？
+								</blockquote>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80eb-898f-c3ac4f31e27c" class="block-color-gray bulleted-list">
+									<li style="list-style-type: disc">
+										[西村2]: （p.30）4.3.2項のからだメタ認知の説明箇所でfocusingにも触れ、共通点と相違点説明しました
+                    <span class="jump" data-thesis-page="49" data-slides-page=""> → 該当箇所へジャンプ </span>
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto"><hr id="2d15da63-bd19-8048-b7dc-d3c38d464ebc" /></div>
+							<div style="display: contents" dir="auto"><h2 id="2d15da63-bd19-8004-b54c-fe4c8f3d21dc" class="">その他の主な修正</h2></div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80ff-ab79-ffce922be4b5" class="bulleted-list">
+									<li style="list-style-type: disc">（p.9）情報処理モデルの知覚行為の関係図を追加
+                    <span class="jump" data-thesis-page="28" data-slides-page="12"> → 該当箇所へジャンプ </span>
+                  </li>
+                  
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80a0-99e0-f64c08f2331f" class="bulleted-list">
+									<li style="list-style-type: disc">（p.11）ダイナミカルシステムの知覚行為の関係図を追加
+                    <span class="jump" data-thesis-page="30" data-slides-page="12"> → 該当箇所へジャンプ </span>
+                  </li>
+                  
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80aa-8f12-c6791cff8582" class="bulleted-list">
+									<li style="list-style-type: disc">（p.19）スポーツ科学研究に対するリスペクト表明の文を追加しました
+                    <span class="jump" data-thesis-page="38" data-slides-page=""> → 該当箇所へジャンプ </span>
+
+                  </li>
+                  
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-80b8-adfa-d3a6ebd67046" class="bulleted-list">
+									<li style="list-style-type: disc">（p.156）モチーフドメインの分析結果を表でも追加しました
+                    <span class="jump" data-thesis-page="75" data-slides-page=""> → 該当箇所へジャンプ </span>
+                  </li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8018-9080-d9ca1beadf31" class="bulleted-list">
+									<li style="list-style-type: disc">
+										HJ-Playgroundの説明を、各種動画・画像を追加しながら、不足していた記述を足しつつ、より「ストーリー」を意識して読みやすいように変更
+									</li>
+								</ul>
+							</div>
+							<div style="display: contents" dir="auto">
+								<ul id="2d15da63-bd19-8032-a3d4-d8cb073b44dc" class="bulleted-list">
+									<li style="list-style-type: disc">など</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<!-- 左下：スライド表示 -->
+				<div id="slides-wrapper">
+					<iframe id="slides-frame" src="slides.pdf#page=1&zoom=page-fit"></iframe>
+				</div>
+			</div>
+
+			<!-- 幅調整バー -->
+			<div id="divider"></div>
+
+			<!-- 右側：博論PDF全面 -->
+			<div id="right-pane">
+				<div id="thesis-wrapper">
+					<iframe id="thesis-frame" src="thesis.pdf#page=1&zoom=page-width"></iframe>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			/* ========= PDFジャンプ（安定版） ========= */
+
+			const thesisBase = 'thesis.pdf'
+			const slidesBase = 'slides.pdf'
+
+			const thesisFrame = document.getElementById('thesis-frame')
+			const slidesFrame = document.getElementById('slides-frame')
+
+			function forceJump(frame, url) {
+				frame.src = 'about:blank'
+				setTimeout(() => {
+					frame.src = `${url}&cachekill=${Date.now()}`
+				}, 30)
+			}
+
+			document.querySelectorAll('.jump').forEach((el) => {
+				el.addEventListener('click', () => {
+					const tPage = el.dataset.thesisPage
+					const sPage = el.dataset.slidesPage
+
+					if (tPage) forceJump(thesisFrame, `${thesisBase}#page=${tPage}&zoom=page-width`)
+					if (sPage) forceJump(slidesFrame, `${slidesBase}#page=${sPage}&zoom=page-fit`)
+				})
+			})
+
+			/* ========= 左右リサイズ ========= */
+
+			const leftPane = document.getElementById('left-pane')
+			const divider = document.getElementById('divider')
+
+			let dragging = false
+			let startX = 0
+			let startWidth = 0
+
+			divider.addEventListener('pointerdown', (e) => {
+				dragging = true
+				startX = e.clientX
+				startWidth = leftPane.getBoundingClientRect().width
+				divider.setPointerCapture(e.pointerId)
+			})
+
+			divider.addEventListener('pointermove', (e) => {
+				if (!dragging) return
+
+				const dx = e.clientX - startX
+				const containerWidth = window.innerWidth
+
+				let newWidth = startWidth + dx
+				newWidth = Math.max(200, Math.min(containerWidth * 0.8, newWidth))
+
+				leftPane.style.flexBasis = `${newWidth}px`
+			})
+
+			divider.addEventListener('pointerup', (e) => {
+				dragging = false
+				divider.releasePointerCapture(e.pointerId)
+			})
+
+			divider.addEventListener('lostpointercapture', () => {
+				dragging = false
+			})
+		</script>
+	</body>
+</html>
