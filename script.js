@@ -23,6 +23,7 @@ async function init() {
 	// いま開いてるページで出し分け
 	const isPatterns = location.pathname.includes('/patterns/')
 	const list = isPatterns ? data.patterns || [] : data.styles || []
+	console.log('isPatterns: ', isPatterns)
 
 	items = list
 		.filter((item) => item?.path?.toLowerCase().endsWith('.mp4'))

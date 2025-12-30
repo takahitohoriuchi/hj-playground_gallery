@@ -1,29 +1,29 @@
 {
 	"patterns": [
-		{ "name": "ame", "path": "../movies/mp4/compressed_pattern_ame.mp4", "jp": "雨" },
-		{ "name": "hitofudetate", "path": "../movies/mp4/compressed_pattern_hitofudetate.mp4", "jp": "上から下に一筆がき" },
-		{ "name": "hitofudeyoko", "path": "../movies/mp4/compressed_pattern_hitofudeyoko.mp4", "jp": "左から右に一筆がき" },
-		{ "name": "kawa", "path": "../movies/mp4/compressed_pattern_kawa.mp4", "jp": "川" },
-		{ "name": "kizaminori", "path": "../movies/mp4/compressed_pattern_kizaminori.mp4", "jp": "きざみのり" },
-		{ "name": "randomchikai", "path": "../movies/mp4/compressed_pattern_randomchikai.mp4", "jp": "ランダム一筆がき(近)" },
-		{ "name": "randomtooi", "path": "../movies/mp4/compressed_pattern_randomtooi.mp4", "jp": "ランダム一筆がき(遠)" },
-		{ "name": "rinkaku", "path": "../movies/mp4/compressed_pattern_rinkaku.mp4", "jp": "全体の輪郭" },
-		{ "name": "sankakkei", "path": "../movies/mp4/compressed_pattern_sankakkei.mp4", "jp": "三角形で埋める" },
-		{ "name": "uzumaki", "path": "../movies/mp4/compressed_pattern_uzumaki.mp4", "jp": "うずまき" },
-		{ "name": "wagomu", "path": "../movies/mp4/compressed_pattern_wagomu.mp4", "jp": "輪ゴムかける" },
-		{ "name": "yokoame", "path": "../movies/mp4/compressed_pattern_yokoame.mp4", "jp": "横雨" }
+		{ "name": "ame", "path": "../movies/compressed_pattern_ame.mp4", "jp": "雨" },
+		{ "name": "hitofudetate", "path": "../movies/compressed_pattern_hitofudetate.mp4", "jp": "上から下に一筆がき" },
+		{ "name": "hitofudeyoko", "path": "../movies/compressed_pattern_hitofudeyoko.mp4", "jp": "左から右に一筆がき" },
+		{ "name": "kawa", "path": "../movies/compressed_pattern_kawa.mp4", "jp": "川" },
+		{ "name": "kizaminori", "path": "../movies/compressed_pattern_kizaminori.mp4", "jp": "きざみのり" },
+		{ "name": "randomchikai", "path": "../movies/compressed_pattern_randomchikai.mp4", "jp": "ランダム一筆がき(近)" },
+		{ "name": "randomtooi", "path": "../movies/compressed_pattern_randomtooi.mp4", "jp": "ランダム一筆がき(遠)" },
+		{ "name": "rinkaku", "path": "../movies/compressed_pattern_rinkaku.mp4", "jp": "全体の輪郭" },
+		{ "name": "sankakkei", "path": "../movies/compressed_pattern_sankakkei.mp4", "jp": "三角形で埋める" },
+		{ "name": "uzumaki", "path": "../movies/compressed_pattern_uzumaki.mp4", "jp": "うずまき" },
+		{ "name": "wagomu", "path": "../movies/compressed_pattern_wagomu.mp4", "jp": "輪ゴムかける" },
+		{ "name": "yokoame", "path": "../movies/compressed_pattern_yokoame.mp4", "jp": "横雨" }
 	],
 	"styles": [
-		{ "name": "a", "path": "../movies/mp4/compressed_style_a.mp4", "jp": "デフォルト" },
-		{ "name": "b", "path": "../movies/mp4/compressed_style_b.mp4", "jp": "線延長" },
-		{ "name": "c", "path": "../movies/mp4/compressed_style_c.mp4", "jp": "線延長10倍" },
-		{ "name": "d", "path": "../movies/mp4/compressed_style_d.mp4", "jp": "外接円" },
-		{ "name": "e", "path": "../movies/mp4/compressed_style_e.mp4", "jp": "内接円" },
-		{ "name": "f", "path": "../movies/mp4/compressed_style_f.mp4", "jp": "外&内接円" },
-		{ "name": "g", "path": "../movies/mp4/compressed_style_g.mp4", "jp": "外接円+デフォルト" },
-		{ "name": "h", "path": "../movies/mp4/compressed_style_h.mp4", "jp": "内接円+デフォルト" },
-		{ "name": "i", "path": "../movies/mp4/compressed_style_i.mp4", "jp": "外&内接円+デフォルト" },
-		{ "name": "k", "path": "../movies/mp4/compressed_style_k.mp4", "jp": "注視点からの円" },
-		{ "name": "j", "path": "../movies/mp4/compressed_style_j.mp4", "jp": "大三角" }
+		{ "name": "a", "path": "../movies/compressed_style_a.mp4", "jp": "デフォルト" },
+		{ "name": "b", "path": "../movies/compressed_style_b.mp4", "jp": "線延長" },
+		{ "name": "c", "path": "../movies/compressed_style_c.mp4", "jp": "線延長10倍" },
+		{ "name": "d", "path": "../movies/compressed_style_d.mp4", "jp": "外接円" },
+		{ "name": "e", "path": "../movies/compressed_style_e.mp4", "jp": "内接円" },
+		{ "name": "f", "path": "../movies/compressed_style_f.mp4", "jp": "外&内接円" },
+		{ "name": "g", "path": "../movies/compressed_style_g.mp4", "jp": "外接円+デフォルト" },
+		{ "name": "h", "path": "../movies/compressed_style_h.mp4", "jp": "内接円+デフォルト" },
+		{ "name": "i", "path": "../movies/compressed_style_i.mp4", "jp": "外&内接円+デフォルト" },
+		{ "name": "k", "path": "../movies/compressed_style_k.mp4", "jp": "注視点からの円" },
+		{ "name": "j", "path": "../movies/compressed_style_j.mp4", "jp": "大三角" }
 	]
 }
