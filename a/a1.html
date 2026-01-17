@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -16,14 +16,30 @@
 				width: 100vw;
 				height: 100vh;
 				object-fit: cover;
-			}			
+			}
 		</style>
 	</head>
-	<body>		
+	<body>
 		<video autoplay loop muted playsinline>
-			<source src="./a1.mp4" type="video/mp4" />			
-		</video>        
+			<source src="./a1.mp4" type="video/mp4" />
+		</video>
 	</body>
 </html>
 
-<script defer src="../script.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const pageTitle = (document.title || '').trim()
+		if (!pageTitle) return
+
+		// 既に挿入済みなら何もしない
+		if (document.querySelector('.video-page-header')) return
+
+		// ヘッダ生成
+		const header = document.createElement('div')
+		header.className = 'video-page-header'
+
+		const h = document.createElement('div')
+		h.className = 'video-page-title'
+		h.textContent = pageTitle
+	})
+</script>

@@ -26,4 +26,20 @@
 	</body>
 </html>
 
-<script defer src="../script.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const pageTitle = (document.title || '').trim()
+		if (!pageTitle) return
+
+		// 既に挿入済みなら何もしない
+		if (document.querySelector('.video-page-header')) return
+
+		// ヘッダ生成
+		const header = document.createElement('div')
+		header.className = 'video-page-header'
+
+		const h = document.createElement('div')
+		h.className = 'video-page-title'
+		h.textContent = pageTitle
+	})
+</script>
