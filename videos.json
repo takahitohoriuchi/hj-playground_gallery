@@ -23,7 +23,7 @@
 		{ "name": "g", "path": "../movies/compressed_style_g.mp4", "jp": "外接円+デフォルト" },
 		{ "name": "h", "path": "../movies/compressed_style_h.mp4", "jp": "内接円+デフォルト" },
 		{ "name": "i", "path": "../movies/compressed_style_i.mp4", "jp": "外&内接円+デフォルト" },
-		{ "name": "k", "path": "../movies/compressed_style_k.mp4", "jp": "注視点からの円" },
-		{ "name": "j", "path": "../movies/compressed_style_j.mp4", "jp": "大三角" }
+		{ "name": "k", "path": "../movies/compressed_style_j.mp4", "jp": "注視点からの円" },
+		{ "name": "j", "path": "../movies/compressed_style_k.mp4", "jp": "大三角" }
 	]
 }
